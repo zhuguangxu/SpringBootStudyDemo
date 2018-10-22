@@ -44,18 +44,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WebSocketConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/websocketdemo/src/main/java/com/springboot/websocket/websocket/config/WebSocketConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="9" column="3" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="WebSocketController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/websocketdemo/src/main/java/com/springboot/websocket/websocket/controller/WebSocketController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -133,15 +121,10 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-data-jpa/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            <state relative-caret-position="242">
+              <caret line="17" column="22" selection-end-line="98" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SspRepository.class" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jianshu/target/classes/com/example1/springdatajpa/dao/SspRepository.class">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -234,9 +217,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="79" />
-    <option name="y" value="155" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="540" />
+    <option name="y" value="186" />
     <option name="width" value="1395" />
     <option name="height" value="1006" />
   </component>
@@ -252,77 +235,6 @@
             <path>
               <item name="SpringBootExample" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-data-jpa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websocketdemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websocketdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websocketdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websocketdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websocketdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="websocket" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websocketdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="websocket" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websocketdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="websocket" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websocketdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websocketdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="websocketdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -343,7 +255,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="G:/quartzdemo" />
+    <property name="last_opened_file_path" value="G:/jian-api" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -509,11 +421,11 @@
     <list>
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Spring Boot.WebsocketApplication" />
+      <item itemvalue="Spring Boot.DemoApplication (1)" />
       <item itemvalue="JUnit.LoginServiceTest.getAll" />
       <item itemvalue="Application.TestTimer" />
       <item itemvalue="Application.TestScheduledExecutorService" />
       <item itemvalue="Spring Boot.WebsockApplication" />
-      <item itemvalue="Spring Boot.DemoApplication (1)" />
     </list>
     <recent_temporary>
       <list>
@@ -545,7 +457,7 @@
       <workItem from="1539562459303" duration="650000" />
       <workItem from="1539826243594" duration="1785000" />
       <workItem from="1540168880785" duration="830000" />
-      <workItem from="1540170903712" duration="1244000" />
+      <workItem from="1540170903712" duration="1892000" />
     </task>
     <servers />
   </component>
@@ -555,7 +467,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37170000" />
+    <option name="totallyTimeSpent" value="37818000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -567,7 +479,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="134" y="327" width="1395" height="1006" extended-state="0" />
+    <frame x="464" y="341" width="1395" height="1006" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.25374857" />
@@ -617,13 +530,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/websocketdemo/src/main/java/com/springboot/websocket/websocket/config/WebSocketServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/websocketdemo/src/main/resources/templates/server.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -911,10 +817,17 @@
     <entry file="file://$PROJECT_DIR$/jianshu/target/classes/com/example1/springdatajpa/dao/SspRepository.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/jianshu/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-data-jpa/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        <state relative-caret-position="242">
+          <caret line="17" column="22" selection-end-line="98" />
         </state>
       </provider>
     </entry>
