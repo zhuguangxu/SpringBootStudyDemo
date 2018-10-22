@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/jianshu/jianshu.iml" filepath="$PROJECT_DIR$/jianshu/jianshu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jianshudemo/jianshudemo.iml" filepath="$PROJECT_DIR$/jianshudemo/jianshudemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/quickstart/quickstart.iml" filepath="$PROJECT_DIR$/quickstart/quickstart.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-data-jpa/spring-data-jpa.iml" filepath="$PROJECT_DIR$/spring-data-jpa/spring-data-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/time/time.iml" filepath="$PROJECT_DIR$/time/time.iml" />

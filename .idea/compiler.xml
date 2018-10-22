@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jianshu" />
+        <module name="jianshudemo" />
         <module name="quickstart" />
         <module name="spring-data-jpa" />
         <module name="time" />
@@ -15,6 +16,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="jianshu" target="1.8" />
+      <module name="jianshudemo" target="1.8" />
       <module name="quickstart" target="1.8" />
       <module name="spring-data-jpa" target="1.8" />
       <module name="time" target="1.8" />
