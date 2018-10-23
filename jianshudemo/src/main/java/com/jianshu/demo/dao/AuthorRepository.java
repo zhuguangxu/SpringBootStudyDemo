@@ -1,12 +1,14 @@
 package com.jianshu.demo.dao;
 
+
 import com.jianshu.demo.domain.entity.Author;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
 import java.util.List;
 
-/**.
+/**
+ * Created by lq on 2018/10/22.
  * 作者Repository接口
  */
 public interface AuthorRepository extends JpaRepository<Author,Integer> {
@@ -17,6 +19,14 @@ public interface AuthorRepository extends JpaRepository<Author,Integer> {
      * @return
      */
     Author findAuthorByAccount(String account);
+
+
+    /**
+     * 根据作者的Id得到一个作者的信息
+     * @param authorId
+     * @return
+     */
+    Author findAuthorByAuthorId(Integer authorId);
 
 
     /**

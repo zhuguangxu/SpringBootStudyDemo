@@ -1,5 +1,6 @@
 package com.jianshu.demo.domain.entity;
 
+import com.jianshu.demo.utils.ResponseUtil;
 import lombok.Builder;
 import lombok.Data;
 
@@ -13,7 +14,7 @@ import javax.persistence.Id;
 @Data
 @Entity
 @Builder
-public class Author {
+public class Author extends ResponseUtil {
 
     @Id
     private Integer authorId;
