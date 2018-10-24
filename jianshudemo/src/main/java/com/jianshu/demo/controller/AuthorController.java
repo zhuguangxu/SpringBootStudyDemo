@@ -15,7 +15,6 @@ import javax.annotation.Resource;
 @RequestMapping("/author")
 @CrossOrigin("http://localhost")
 public class AuthorController {
-
     @Resource
     private AuthorService authorService;
 
@@ -23,7 +22,6 @@ public class AuthorController {
     public ResponseUtil getIndexAuthorListVO(){
         return authorService.getIndexAuthorListVo();
     }
-
 
     @RequestMapping(value = "/oneAuthor", method = RequestMethod.POST)
     public ResponseUtil getOneAuthorByAuthorId(@RequestBody GetAuthorDTO getAuthorDTO){

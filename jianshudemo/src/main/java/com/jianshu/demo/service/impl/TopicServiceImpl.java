@@ -54,6 +54,7 @@ public class TopicServiceImpl implements TopicService {
         } else {
             return new ResponseUtil(0, "NO topic");
         }
+        return getOneTopicDetails(topicId);
     }
 
     @Override

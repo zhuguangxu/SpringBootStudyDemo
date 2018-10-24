@@ -13,10 +13,10 @@ public interface AuthorService {
 
     /**
      * 根据某个属性查到一个作者的信息
-     * @param getAuthorDTO
+     * @param  authorId
      * @return
      */
-    Author getOneAuthorByAuthorId(Integer authorId);
+    ResponseUtil getOneAuthorByAuthorId(Integer authorId);
 
     /**
      * 得到首页上的作者列表视图

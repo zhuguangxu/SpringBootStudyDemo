@@ -9,6 +9,7 @@ import com.jianshu.demo.utils.ResponseUtil;
  */
 public interface AuthorAndTopicService {
 
+
     /**
      * 作者关注一个专题
      * @param authorId

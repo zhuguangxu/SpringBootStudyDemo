@@ -40,22 +40,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/impl/LoginServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ArticleService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/ArticleService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
+            <state relative-caret-position="193">
               <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
             </state>
           </provider>
@@ -64,8 +52,8 @@
       <file leaf-file-name="AuthorAndTopicService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/AuthorAndTopicService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="61">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -73,8 +61,8 @@
       <file leaf-file-name="AuthorService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/AuthorService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="295">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,20 +79,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/LoginService.java">
+      <file leaf-file-name="AuthorController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/controller/AuthorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="418">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopicService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/TopicService.java">
+      <file leaf-file-name="ArticleServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/impl/ArticleServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="475">
+              <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/utils/ResponseUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DemoApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/DemoApplication.java">
+      <file leaf-file-name="AuthorServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/impl/AuthorServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="317">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,11 +127,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/resources/application.properties">
+      <file leaf-file-name="TopicServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/impl/TopicServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            <state relative-caret-position="187">
+              <caret line="45" column="97" lean-forward="true" selection-start-line="45" selection-start-column="97" selection-end-line="45" selection-end-column="97" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexAuthorListVO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/domain/vo/IndexAuthorListVO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -189,7 +195,6 @@
         <option value="$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/domain/vo/TopicDetailsAuthorListVO.java" />
         <option value="$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/domain/vo/TopicDetailsVO.java" />
         <option value="$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/ArticleService.java" />
-        <option value="$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/AuthorAndTopicService.java" />
         <option value="$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/CarouselService.java" />
         <option value="$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/LoginService.java" />
         <option value="$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/TopicService.java" />
@@ -204,14 +209,15 @@
         <option value="$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/controller/TopicController.java" />
         <option value="$PROJECT_DIR$/jianshudemo/pom.xml" />
-        <option value="$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/controller/AuthorController.java" />
-        <option value="$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/AuthorService.java" />
         <option value="$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/impl/CarouselServiceImpl.java" />
         <option value="$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/impl/LoginServiceImpl.java" />
-        <option value="$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/impl/TopicServiceImpl.java" />
         <option value="$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/domain/entity/Author.java" />
-        <option value="$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/impl/AuthorServiceImpl.java" />
         <option value="$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/utils/ResponseUtil.java" />
+        <option value="$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/impl/AuthorServiceImpl.java" />
+        <option value="$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/controller/AuthorController.java" />
+        <option value="$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/AuthorAndTopicService.java" />
+        <option value="$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/AuthorService.java" />
+        <option value="$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/impl/TopicServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -249,7 +255,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="95" />
     <option name="y" value="98" />
     <option name="width" value="1105" />
@@ -260,7 +266,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -420,8 +425,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -654,6 +660,7 @@
       <workItem from="1540223932560" duration="2944000" />
       <workItem from="1540307653452" duration="3515000" />
       <workItem from="1540311441477" duration="879000" />
+      <workItem from="1540394957716" duration="890000" />
     </task>
     <servers />
   </component>
@@ -663,7 +670,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45156000" />
+    <option name="totallyTimeSpent" value="46046000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -675,7 +682,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="95" y="98" width="1105" height="973" extended-state="1" />
+    <frame x="95" y="98" width="1105" height="973" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -698,7 +705,7 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.84044945" weight="0.4383358" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32972974" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32972974" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18373206" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25263157" />
       <window_info anchor="bottom" id="Problems" order="8" weight="0.32972974" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="3" side_tool="true" />
@@ -790,9 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -803,53 +807,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/dao/CarouselRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/dao/ArticleRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/dao/AuthorAndTopicRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="13" column="75" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/dao/AuthorRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/dao/TopicRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -857,9 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -867,9 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -931,13 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/domain/vo/IndexAuthorListVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/domain/vo/IndexTopicListVO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -969,16 +917,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/domain/dto/GetArticleDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/domain/dto/GetAuthorDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -999,20 +937,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/controller/ArticleController.java">
+    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="220">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/controller/AuthorController.java">
+    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/TopicService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="22">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/impl/LoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/impl/CarouselServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/domain/dto/GetArticleDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1049,6 +1028,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/dao/ArticleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/dao/AuthorAndTopicRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" column="75" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/dao/CarouselRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/dao/TopicRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/controller/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/controller/AuthorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/impl/ArticleServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -1059,40 +1098,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/impl/CarouselServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/domain/vo/IndexAuthorListVO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="110">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/impl/AuthorServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/utils/ResponseUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/impl/TopicServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/impl/LoginServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="176">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1101,25 +1117,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/ArticleService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
+        <state relative-caret-position="193">
           <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/AuthorAndTopicService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/AuthorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="61">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -1130,44 +1136,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/LoginService.java">
+    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/AuthorService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/TopicService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/utils/ResponseUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="295">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/DemoApplication.java">
+    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/impl/AuthorServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="317">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/jianshudemo/src/main/java/com/jianshu/demo/service/impl/TopicServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="187">
+          <caret line="45" column="97" lean-forward="true" selection-start-line="45" selection-start-column="97" selection-end-line="45" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
