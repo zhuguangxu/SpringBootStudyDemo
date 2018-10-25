@@ -3,7 +3,7 @@ package com.jianshu.demo.service;
 import com.jianshu.demo.utils.ResponseUtil;
 
 /**
- * Created by lq on 2018/10/23.
+ * Created by zgx on 2018/10/23.
  * 专题的Service
  */
 public interface TopicService {

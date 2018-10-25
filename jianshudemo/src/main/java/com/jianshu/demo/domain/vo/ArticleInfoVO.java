@@ -6,7 +6,7 @@ import lombok.Data;
 import java.io.Serializable;
 
 /**
- * Created by lq on 2018/10/22.
+ * Created by zgx on 2018/10/22.
  * 文章详情页的视图
  */
 @Data

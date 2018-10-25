@@ -5,7 +5,7 @@ import com.jianshu.demo.utils.ResponseUtil;
 
 
 /**
- * Created by lq on 2018/10/22.
+ * Created by zgx on 2018/10/22.
  * 登陆Service接口
  */
 public interface LoginService {

@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 
 /**
- * Created by lq on 2018/10/23.
+ * Created by zgx on 2018/10/23.
  * topicController
  */
 @RestController

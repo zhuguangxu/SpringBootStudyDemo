@@ -4,7 +4,7 @@ package com.jianshu.demo.service;
 import com.jianshu.demo.utils.ResponseUtil;
 
 /**
- * Created by lq on 2018/10/22.
+ * Created by zgx on 2018/10/22.
  * 文章的Service
  */
 public interface ArticleService {

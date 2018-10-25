@@ -6,7 +6,7 @@ import com.jianshu.demo.domain.entity.Author;
 import com.jianshu.demo.utils.ResponseUtil;
 
 /**
- * Created by lq on 2018/10/22.
+ * Created by zgx on 2018/10/22.
  * 作者Service接口
  */
 public interface AuthorService {

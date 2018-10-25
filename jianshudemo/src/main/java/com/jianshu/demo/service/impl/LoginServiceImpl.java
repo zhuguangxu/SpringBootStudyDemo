@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 
 /**
- * Created by lq on 2018/10/22.
+ * Created by zgx on 2018/10/22.
  * 登陆接口的实现类
  */
 @Service

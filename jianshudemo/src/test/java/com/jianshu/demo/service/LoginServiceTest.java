@@ -1,6 +1,6 @@
 package com.jianshu.demo.service;
 
-import com.lq.utils.ResponseUtil;
+import com.jianshu.demo.utils.ResponseUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -9,7 +9,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import javax.annotation.Resource;
 
 /**
- * Created by lq on 2018/10/22.
+ * Created by zgx  on 2018/10/22.
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest

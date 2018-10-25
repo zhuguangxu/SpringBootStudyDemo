@@ -11,7 +11,7 @@ import javax.annotation.Resource;
 import java.util.List;
 
 /**
- * Created by lq on 2018/10/23.
+ * Created by zgx on 2018/10/23.
  * 轮播图Service接口实现类
  */
 @Service

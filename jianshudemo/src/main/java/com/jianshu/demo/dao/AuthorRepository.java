@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.Query;
 import java.util.List;
 
 /**
- * Created by lq on 2018/10/22.
+ * Created by zgx on 2018/10/22.
  * 作者Repository接口
  */
 public interface AuthorRepository extends JpaRepository<Author,Integer> {

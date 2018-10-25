@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by lq on 2018/10/23.
+ * Created by zgx on 2018/10/23.
  * 专题的Service实现类
  */
 @Service

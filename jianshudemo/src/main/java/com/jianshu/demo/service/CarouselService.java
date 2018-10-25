@@ -4,7 +4,7 @@ package com.jianshu.demo.service;
 import com.jianshu.demo.utils.ResponseUtil;
 
 /**
- * Created by lq on 2018/10/23.
+ * Created by zgx on 2018/10/23.
  * 轮播图Service接口
  */
 public interface CarouselService {

@@ -8,7 +8,7 @@ import java.util.List;
 
 
 /**
- * Created by lq on 2018/10/22.
+ * Created by zgx on 2018/10/22.
  * 文章的Repository接口
  */
 public interface ArticleRepository extends JpaRepository<Article,Integer> {
