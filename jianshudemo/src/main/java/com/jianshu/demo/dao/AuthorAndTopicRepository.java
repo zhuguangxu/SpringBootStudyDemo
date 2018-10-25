@@ -4,6 +4,7 @@ package com.jianshu.demo.dao;
 import com.jianshu.demo.domain.entity.AuthorAndTopic;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
 
 import java.util.List;
 
@@ -20,6 +21,6 @@ public interface AuthorAndTopicRepository extends JpaRepository<AuthorAndTopic,I
      * @return
      */
     @Query("from AuthorAndTopic a where a.topicId=:topicId")
-    List<AuthorAndTopic> findATListByTopicId(Integer topicId);
+    List<AuthorAndTopic> findATListByTopicId(@Param("topicId") Integer topicId);
 
 }

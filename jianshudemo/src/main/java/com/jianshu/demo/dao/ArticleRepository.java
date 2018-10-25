@@ -3,6 +3,7 @@ package com.jianshu.demo.dao;
 import com.jianshu.demo.domain.entity.Article;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
 
 import java.util.List;
 
@@ -27,5 +28,5 @@ public interface ArticleRepository extends JpaRepository<Article,Integer> {
      * @return
      */
     @Query("from Article a where a.topicId=:topicId")
-    List<Article> findArticlesByTopicId(Integer topicId);
+    List<Article> findArticlesByTopicId(@Param("topicId") Integer topicId);
 }

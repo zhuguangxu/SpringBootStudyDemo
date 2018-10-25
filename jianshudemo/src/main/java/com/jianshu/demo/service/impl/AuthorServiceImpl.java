@@ -3,6 +3,7 @@ package com.jianshu.demo.service.impl;
 
 import com.jianshu.demo.dao.AuthorRepository;
 import com.jianshu.demo.domain.entity.Author;
+import com.jianshu.demo.domain.vo.AllAuthorListVO;
 import com.jianshu.demo.domain.vo.IndexAuthorListVO;
 import com.jianshu.demo.service.AuthorService;
 import com.jianshu.demo.utils.ResponseUtil;
@@ -34,7 +35,7 @@ public class AuthorServiceImpl implements AuthorService {
         if (author != null){
             return new ResponseUtil(0,"OK",authorRepository.findAuthorByAuthorId(authorId));
         }else {
-            return new ResponseUtil(0,"NO author");
+            return new ResponseUtil(0,"NO Author");
         }
     }
 
@@ -59,7 +60,26 @@ public class AuthorServiceImpl implements AuthorService {
             }
             return new ResponseUtil(0,"OK",authorListVOList);
         }else {
-            return new ResponseUtil(0,"No author");
+            return new ResponseUtil(0,"No Author");
+        }
+    }
+
+    @Override
+    public ResponseUtil getAllAuthorListVo() {
+        List<Author> authorList = authorRepository.findAll();
+        if (authorList.size() != 0){
+            List<AllAuthorListVO> authorListVOList = new ArrayList<>();
+            for (Author author : authorList){
+                AllAuthorListVO allAuthorListVO = new AllAuthorListVO();
+                allAuthorListVO.setAuthorId(author.getAuthorId());
+                allAuthorListVO.setAuthorAvatar(author.getAuthorAvatar());
+                allAuthorListVO.setAuthorNickname(author.getAuthorNickname());
+                allAuthorListVO.setAuthorDescription(author.getAuthorDescription());
+                authorListVOList.add(allAuthorListVO);
+            }
+            return new ResponseUtil(0,"Ok",authorListVOList);
+        }else {
+            return new ResponseUtil(0,"No Author");
         }
     }
 }

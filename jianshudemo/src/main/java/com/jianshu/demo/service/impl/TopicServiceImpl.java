@@ -1,14 +1,17 @@
 package com.jianshu.demo.service.impl;
 
 import com.jianshu.demo.dao.ArticleRepository;
+import com.jianshu.demo.dao.AuthorAndTopicRepository;
 import com.jianshu.demo.dao.AuthorRepository;
 import com.jianshu.demo.dao.TopicRepository;
 import com.jianshu.demo.domain.entity.Article;
 import com.jianshu.demo.domain.entity.Author;
+import com.jianshu.demo.domain.entity.AuthorAndTopic;
 import com.jianshu.demo.domain.entity.Topic;
 import com.jianshu.demo.domain.vo.IndexArticleListVO;
 import com.jianshu.demo.domain.vo.IndexTopicListVO;
 import com.jianshu.demo.domain.vo.TopicDetailsAuthorListVO;
+import com.jianshu.demo.domain.vo.TopicDetailsVO;
 import com.jianshu.demo.service.TopicService;
 import com.jianshu.demo.utils.ResponseUtil;
 import org.springframework.stereotype.Service;
@@ -31,32 +34,60 @@ public class TopicServiceImpl implements TopicService {
     private AuthorRepository authorRepository;
     @Resource
     private ArticleRepository articleRepository;
+    @Resource
+    private AuthorAndTopicRepository authorAndTopicRepository;
 
     @Override
     public ResponseUtil getOneTopicDetails(Integer topicId) {
         //首先获得详情页中的topic信息
         Topic topic = topicRepository.findTopicByTopicId(topicId);
-        if (topic != null) {
-            //其次获得这个专题下的文章列表
+        if (topic != null){
+            TopicDetailsVO topicDetailsVO = new TopicDetailsVO();
+
             List<Article> articleList = articleRepository.findArticlesByTopicId(topicId);
-            if (articleList.size() != 0) {
-                List<IndexArticleListVO> articleListVOList = new ArrayList<>();
-                List<TopicDetailsAuthorListVO> authorListVOList = new ArrayList<>();
-                for (Article article : articleList) {
+            List<AuthorAndTopic> authorAndTopicList = authorAndTopicRepository.findATListByTopicId(topicId);
+
+            List<IndexArticleListVO> articleListVOList = new ArrayList<>();
+            List<TopicDetailsAuthorListVO> authorListVOList = new ArrayList<>();
+
+
+            //其次获得这个专题下的文章列表
+            if(articleList.size() != 0){
+                for(Article article : articleList){
+                    IndexArticleListVO indexArticleListVO = new IndexArticleListVO();
                     Author author = authorRepository.findAuthorByAuthorId(article.getAuthorId());
-                    TopicDetailsAuthorListVO topicDetailsAuthorListVO =
-                            new TopicDetailsAuthorListVO(author.getAuthorId(), author.getAuthorAvatar());
-
+                    indexArticleListVO.setArticleId(article.getArticleId());
+                    indexArticleListVO.setAuthorId(author.getAuthorId());
+                    indexArticleListVO.setAuthorNickname(author.getAuthorNickname());
+                    indexArticleListVO.setArticleTitle(article.getArticleTitle());
+                    indexArticleListVO.setArticleThumbnail(article.getArticleThumbnail());
+                    indexArticleListVO.setArticleSummary(article.getArticleSummary());
+                    indexArticleListVO.setArticleCommentCount(article.getArticleCommentCount());
+                    indexArticleListVO.setArticleLikeCount(article.getArticleLikeCount());
+                    articleListVOList.add(indexArticleListVO);
                 }
-            } else {
-                return new ResponseUtil(0, "this topic no article");
             }
-        } else {
-            return new ResponseUtil(0, "NO topic");
-        }
-        return getOneTopicDetails(topicId);
-    }
 
+            //其次获得这个专题下关注这个专题的人
+            if (authorAndTopicList.size() != 0){
+                for (AuthorAndTopic authorAndTopic : authorAndTopicList){
+                    Author author = authorRepository.findAuthorByAuthorId(authorAndTopic.getAuthorId());
+                    TopicDetailsAuthorListVO topicDetailsAuthorListVO =
+                            new TopicDetailsAuthorListVO(author.getAuthorId(),author.getAuthorAvatar());
+                    authorListVOList.add(topicDetailsAuthorListVO);
+                }
+            }
+
+            topicDetailsVO.setTopic(topic);
+            topicDetailsVO.setArticleListVOList(articleListVOList);
+            topicDetailsVO.setAuthorListVOList(authorListVOList);
+
+            return new ResponseUtil(0,"OK",topicDetailsVO);
+
+        }else {
+            return new ResponseUtil(0,"NO topic");
+        }
+    }
     @Override
     public ResponseUtil getAllTopics() {
         List<Topic> topicList = topicRepository.findAll();

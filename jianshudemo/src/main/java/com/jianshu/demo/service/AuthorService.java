@@ -1,8 +1,6 @@
 package com.jianshu.demo.service;
 
 
-import com.jianshu.demo.domain.dto.GetAuthorDTO;
-import com.jianshu.demo.domain.entity.Author;
 import com.jianshu.demo.utils.ResponseUtil;
 
 /**
@@ -23,4 +21,9 @@ public interface AuthorService {
      * @return
      */
     ResponseUtil getIndexAuthorListVo();
+    /**
+     * 得到所有作者页面的视图
+     * @return
+     */
+    ResponseUtil getAllAuthorListVo();
 }

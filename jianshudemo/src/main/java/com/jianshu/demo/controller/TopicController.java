@@ -1,12 +1,10 @@
 package com.jianshu.demo.controller;
 
 
+import com.jianshu.demo.domain.dto.GetTopicDTO;
 import com.jianshu.demo.service.TopicService;
 import com.jianshu.demo.utils.ResponseUtil;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 
@@ -31,5 +29,9 @@ public class TopicController {
     @RequestMapping(value = "/allTopics",method = RequestMethod.GET)
     public ResponseUtil getAllTopics(){
         return topicService.getAllTopics();
+    }
+    @RequestMapping(value = "/oneTopicDetails",method = RequestMethod.POST )
+    public ResponseUtil getOneTopicDetais(@RequestBody GetTopicDTO getTopicDTO){
+        return topicService.getOneTopicDetails(getTopicDTO.getTopicId());
     }
 }

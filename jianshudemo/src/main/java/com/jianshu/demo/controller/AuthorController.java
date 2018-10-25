@@ -27,4 +27,9 @@ public class AuthorController {
     public ResponseUtil getOneAuthorByAuthorId(@RequestBody GetAuthorDTO getAuthorDTO){
         return authorService.getOneAuthorByAuthorId(getAuthorDTO.getAuthorId());
     }
+
+    @RequestMapping(value = "/allAuthor", method = RequestMethod.GET)
+    public ResponseUtil getAllAuthorListVO(){
+        return authorService.getAllAuthorListVo();
+    }
 }
