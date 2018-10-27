@@ -29,4 +29,8 @@ public interface ArticleRepository extends JpaRepository<Article,Integer> {
      */
     @Query("from Article a where a.topicId=:topicId")
     List<Article> findArticlesByTopicId(@Param("topicId") Integer topicId);
+
+
+    @Query("from Article a where a.authorId=:authorId")
+    List<Article> findArticlesByAuthorId(@Param("authorId") Integer authorId);
 }

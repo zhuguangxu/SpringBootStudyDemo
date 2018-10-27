@@ -1,6 +1,5 @@
 package com.jianshu.demo.service.impl;
 
-
 import com.jianshu.demo.dao.CarouselRepository;
 import com.jianshu.demo.domain.entity.Carousel;
 import com.jianshu.demo.service.CarouselService;

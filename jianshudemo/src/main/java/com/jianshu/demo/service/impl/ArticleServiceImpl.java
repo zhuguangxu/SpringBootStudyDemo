@@ -1,6 +1,5 @@
 package com.jianshu.demo.service.impl;
 
-
 import com.jianshu.demo.dao.ArticleRepository;
 import com.jianshu.demo.dao.AuthorRepository;
 import com.jianshu.demo.domain.entity.Article;

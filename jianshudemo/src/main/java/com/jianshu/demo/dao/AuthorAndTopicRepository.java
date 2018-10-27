@@ -23,4 +23,11 @@ public interface AuthorAndTopicRepository extends JpaRepository<AuthorAndTopic,I
     @Query("from AuthorAndTopic a where a.topicId=:topicId")
     List<AuthorAndTopic> findATListByTopicId(@Param("topicId") Integer topicId);
 
+    /**
+     * 根据作者的Id和专题的Id得到一个实体类
+     * @param authorId
+     * @param topicId
+     * @return
+     */
+    AuthorAndTopic findAuthorAndTopicByAuthorIdAndTopicId(Integer authorId,Integer topicId);
 }

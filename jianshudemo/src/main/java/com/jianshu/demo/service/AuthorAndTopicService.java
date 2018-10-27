@@ -16,7 +16,7 @@ public interface AuthorAndTopicService {
      * @param topicId
      * @return
      */
-    ResponseUtil addTopicFollow(Integer authorId, Integer topicId);
+    ResponseUtil addTopicFollow(Integer authorId,Integer topicId,Integer status);
 
 
     /**
@@ -26,4 +26,12 @@ public interface AuthorAndTopicService {
      * @return
      */
     ResponseUtil cancelTopicFollow(Integer authorId, Integer topicId);
+    /**
+     *
+     * @param authorId
+     * @param topicId
+     * @return
+     */
+    int judgeSysAuthorIsFollowTopic(Integer authorId, Integer topicId);
+
 }

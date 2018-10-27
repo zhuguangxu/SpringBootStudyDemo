@@ -1,10 +1,10 @@
 package com.jianshu.demo.service.impl;
 
-
+import com.jianshu.demo.dao.ArticleRepository;
 import com.jianshu.demo.dao.AuthorRepository;
+import com.jianshu.demo.domain.entity.Article;
 import com.jianshu.demo.domain.entity.Author;
-import com.jianshu.demo.domain.vo.AllAuthorListVO;
-import com.jianshu.demo.domain.vo.IndexAuthorListVO;
+import com.jianshu.demo.domain.vo.*;
 import com.jianshu.demo.service.AuthorService;
 import com.jianshu.demo.utils.ResponseUtil;
 import org.springframework.stereotype.Service;
@@ -22,7 +22,8 @@ public class AuthorServiceImpl implements AuthorService {
 
     @Resource
     private AuthorRepository authorRepository;
-
+    @Resource
+    private ArticleRepository articleRepository;
 
     /**
      * 根据作者的Id得到一个作者的信息
@@ -33,9 +34,34 @@ public class AuthorServiceImpl implements AuthorService {
     public ResponseUtil getOneAuthorByAuthorId(Integer authorId) {
         Author author = authorRepository.findAuthorByAuthorId(authorId);
         if (author != null){
-            return new ResponseUtil(0,"OK",authorRepository.findAuthorByAuthorId(authorId));
+            AuthorDetailsVO authorDetailsVO = new AuthorDetailsVO();
+            AuthorDetailsAuthorVO authorDetailsAuthorVO = new AuthorDetailsAuthorVO();
+            authorDetailsAuthorVO.setAuthorId(author.getAuthorId());
+            authorDetailsAuthorVO.setAuthorAvatar(author.getAuthorAvatar());
+            authorDetailsAuthorVO.setAuthorNickname(author.getAuthorNickname());
+            authorDetailsAuthorVO.setAuthorDescription(author.getAuthorDescription());
+            authorDetailsAuthorVO.setAuthorArticleCount(author.getAuthorArticleCount());
+            authorDetailsAuthorVO.setAuthorFansCount(author.getAuthorFansCount());
+            authorDetailsAuthorVO.setAuthorFavoriteCount(author.getAuthorFavoriteCount());
+            authorDetailsAuthorVO.setAuthorFollowCount(author.getAuthorFollowCount());
+            authorDetailsAuthorVO.setAuthorWordsCount(author.getAuthorWordsCount());
+            List<Article> articleList = articleRepository.findArticlesByAuthorId(authorId);
+            List<AuthorDetailsArticleListVO> authorDetailsArticleListVOList = new ArrayList<>();
+            for (Article article : articleList){
+                AuthorDetailsArticleListVO authorDetailsArticleListVO = new AuthorDetailsArticleListVO();
+                authorDetailsArticleListVO.setArticleId(article.getArticleId());
+                authorDetailsArticleListVO.setArticleTitle(article.getArticleTitle());
+                authorDetailsArticleListVO.setArticleThumbnail(article.getArticleThumbnail());
+                authorDetailsArticleListVO.setArticleSummary(article.getArticleSummary());
+                authorDetailsArticleListVO.setArticleCommentCount(article.getArticleCommentCount());
+                authorDetailsArticleListVO.setArticleLikeCount(article.getArticleLikeCount());
+                authorDetailsArticleListVOList.add(authorDetailsArticleListVO);
+            }
+            authorDetailsVO.setAuthor(authorDetailsAuthorVO);
+            authorDetailsVO.setAuthorDetailsArticleListVOList(authorDetailsArticleListVOList);
+            return new ResponseUtil(0,"OK",authorDetailsVO);
         }else {
-            return new ResponseUtil(0,"NO Author");
+            return new ResponseUtil(0,"NO author");
         }
     }
 

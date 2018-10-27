@@ -1,6 +1,5 @@
 package com.jianshu.demo.controller;
 
-
 import com.jianshu.demo.domain.dto.GetTopicDTO;
 import com.jianshu.demo.service.TopicService;
 import com.jianshu.demo.utils.ResponseUtil;
